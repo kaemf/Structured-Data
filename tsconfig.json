@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es6",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "rootDir": "data/events/core",
+    "outDir": "data/events",
+    "resolveJsonModule": true
+  },
+  "include": [
+    "data/events/core/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
